@@ -1,0 +1,3394 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5b1a0442-7806-4be2-b211-5050abea154e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GTF Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GTF Device:SW 3PDT x3"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW 3PDT x3"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MadBean Switches:3PDT.LUGS.KR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, triple pole double throw, separate symbols"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW*DPDT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW 3PDT x3_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW 3PDT x3_0_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.5748 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW 3PDT x3_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW 3PDT x3_2_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW 3PDT x3_3_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start -0.762 0.7656)
+					(mid 0 1.0189)
+					(end 0.762 0.7656)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 279.4 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c2e715d-3837-49b9-bf23-ee39c4c7546f")
+	)
+	(junction
+		(at 256.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5228110f-c1c0-417a-b7b6-90e3edfad87b")
+	)
+	(junction
+		(at 238.76 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "918c818f-4ce5-4c6f-b4c3-6403ca49ca8e")
+	)
+	(junction
+		(at 238.76 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef7f0ef-cd88-4e9d-aba9-559f36aa8352")
+	)
+	(junction
+		(at 266.065 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4b5b612-27d6-4079-8371-4f0e3e1afd36")
+	)
+	(junction
+		(at 238.76 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c549c6ca-fd07-4d20-b392-77369f8d68e1")
+	)
+	(junction
+		(at 266.7 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e47d7ec3-f041-4e94-88c1-d6064babfd28")
+	)
+	(wire
+		(pts
+			(xy 249.555 106.68) (xy 254 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0330db62-cb25-4c8e-9624-c959369febcd")
+	)
+	(wire
+		(pts
+			(xy 266.7 161.29) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0501d57a-d4b0-4010-9e06-d0b87f9dea7e")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 223.52 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a01d972-229a-4fad-b8fd-a70cbebeb479")
+	)
+	(wire
+		(pts
+			(xy 238.76 83.82) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc5a4f3-dc6d-4928-a2b9-3fb8d962f3eb")
+	)
+	(wire
+		(pts
+			(xy 220.98 101.6) (xy 223.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a30071-e452-4e32-9842-9f79485855ca")
+	)
+	(wire
+		(pts
+			(xy 266.7 152.4) (xy 268.605 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a9ad58-be71-492f-9f74-bcd82e5359f0")
+	)
+	(wire
+		(pts
+			(xy 256.54 142.24) (xy 259.715 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2675c6db-8860-47ab-a7b2-9d01ec9b9d6a")
+	)
+	(wire
+		(pts
+			(xy 254 147.32) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285e7d96-9456-43dd-bbb3-f23d9b838b60")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 223.52 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab1160a-8303-4293-9d8b-f0c4a4045a86")
+	)
+	(wire
+		(pts
+			(xy 220.98 96.52) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40966b20-160d-48dd-a713-1118226913b7")
+	)
+	(wire
+		(pts
+			(xy 264.16 104.14) (xy 279.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53938390-7b4d-43c5-a651-f2183a6dc53d")
+	)
+	(wire
+		(pts
+			(xy 264.795 152.4) (xy 266.7 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55df6d8c-6948-4bfd-8510-f306f7da8f7e")
+	)
+	(wire
+		(pts
+			(xy 220.98 93.98) (xy 223.52 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5acebd38-ed25-4f8f-97eb-822777d745b2")
+	)
+	(wire
+		(pts
+			(xy 256.54 147.32) (xy 256.54 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682ee8af-24a4-4a48-b6db-4f5f2240078a")
+	)
+	(wire
+		(pts
+			(xy 276.86 142.24) (xy 279.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2ac47f-2753-4a55-aeea-68067d1ec155")
+	)
+	(wire
+		(pts
+			(xy 279.4 129.54) (xy 279.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e189152-2c53-4904-ad2a-8df4b3a996ac")
+	)
+	(wire
+		(pts
+			(xy 274.955 161.29) (xy 279.4 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ad1467-59c6-4524-80d6-ebc73a9a8410")
+	)
+	(wire
+		(pts
+			(xy 266.065 142.24) (xy 269.24 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a76b73-44bf-42cb-aaf2-48f97bab5666")
+	)
+	(wire
+		(pts
+			(xy 256.54 152.4) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5299e4-a5d7-414e-b08c-ea3e2a91a20d")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cf7009-3393-41ff-a9b0-86317c39cbc4")
+	)
+	(wire
+		(pts
+			(xy 279.4 152.4) (xy 279.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7b8062-e923-40bc-a129-d8b8354cfadd")
+	)
+	(wire
+		(pts
+			(xy 238.76 81.28) (xy 238.76 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9ed71d-d2fc-4512-bf24-4dbefcd9b909")
+	)
+	(wire
+		(pts
+			(xy 249.555 106.68) (xy 249.555 111.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4470050-47af-4cfd-81ad-e11be64e77fc")
+	)
+	(wire
+		(pts
+			(xy 220.98 99.06) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0c8c53-09b0-41e9-b9b4-adf37bcc7621")
+	)
+	(wire
+		(pts
+			(xy 264.795 142.24) (xy 266.065 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de263c4d-9695-4f60-9401-da6a61d5697c")
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06) (xy 238.76 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09fd656-5847-470d-a1d8-b8e35eda580d")
+	)
+	(wire
+		(pts
+			(xy 266.065 142.24) (xy 266.065 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17a5b0d-9d2b-450a-b4e2-bea931d1a19e")
+	)
+	(wire
+		(pts
+			(xy 269.875 161.29) (xy 266.7 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6874f15-b370-4aba-8257-319c93d0f66e")
+	)
+	(wire
+		(pts
+			(xy 279.4 161.29) (xy 279.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e98b3d18-7fcf-450f-a44a-b8a9c2aa5083")
+	)
+	(wire
+		(pts
+			(xy 276.225 152.4) (xy 279.4 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda82a93-44ac-4537-8c69-14528c48bc55")
+	)
+	(wire
+		(pts
+			(xy 266.065 129.54) (xy 279.4 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1387b9-948d-4b26-8e63-1e017431584e")
+	)
+	(wire
+		(pts
+			(xy 259.715 152.4) (xy 256.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd63d3be-eb98-47ff-8b36-db7849915b0e")
+	)
+	(global_label "Send SW"
+		(shape input)
+		(at 264.16 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2171f0c9-a320-4339-bccd-886a9bd20509")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.2792 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "In SW"
+		(shape input)
+		(at 223.52 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b1fe222-966d-4524-ab8f-c2fc9f1cb0ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 230.9505 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+9V SW"
+		(shape input)
+		(at 254 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "421f7d09-ff82-4ddc-8f23-5948b2c97172")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.6761 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Effect SW"
+		(shape input)
+		(at 223.52 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45d720e5-e6d4-4266-9988-8792625f6139")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.9916 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bypass"
+		(shape input)
+		(at 264.16 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c34fde3-0d4b-4f92-8095-2f5737d212b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.5756 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Out SW"
+		(shape input)
+		(at 223.52 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8040e2d5-2ca1-4532-bee0-3753247133a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5634 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Bypass"
+		(shape input)
+		(at 264.16 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92a6f7bf-b4a1-47df-bb01-e5499a570c6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.5756 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Effect SW"
+		(shape input)
+		(at 264.16 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e29bd23-48ba-43dc-bb79-d29bd23f84b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.6316 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+9V SW"
+		(shape input)
+		(at 223.52 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a28ec9ef-3f87-496a-accf-2b26019c5dcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.7458 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Out SW"
+		(shape input)
+		(at 254 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6a868fc-27d2-479d-bc70-094fbf56c805")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9566 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Send SW"
+		(shape input)
+		(at 223.52 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d052b9f7-6473-4ed0-9294-b2c75e0d14b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.6392 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Send SW"
+		(shape input)
+		(at 264.16 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7ee3f4c-7bd3-4a3b-aa0e-a6ffec606823")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.2792 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "In SW"
+		(shape input)
+		(at 254 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Avenir Next")
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe17ecdc-e6b9-42fa-ae99-ca9694777182")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.5695 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1db43875-5131-4d27-8b2a-7b0f1f08313c")
+		(property "Reference" "#PWR01"
+			(at 238.76 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sub_GND"
+			(at 238.76 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "44d0b8cf-6237-4c66-a26e-9578869c8088")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GTF Device:SW 3PDT x3")
+		(at 259.08 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fa5752d-7621-4c20-b1c7-61b9f188e372")
+		(property "Reference" "SW1"
+			(at 259.08 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Foot Switch"
+			(at 259.08 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GTF_Library:Switch"
+			(at 259.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, triple pole double throw, separate symbols"
+			(at 259.08 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4289c6f2-d3a9-498a-bfe4-e1b371fad4d0")
+		)
+		(pin "1"
+			(uuid "27f72bf5-f677-44e2-811b-149b0a79069b")
+		)
+		(pin "9"
+			(uuid "143bf7b7-75a2-4470-ad53-36b170decdeb")
+		)
+		(pin "7"
+			(uuid "e143a202-5fbf-41a7-9c4d-36eb1c28ae21")
+		)
+		(pin "4"
+			(uuid "dc7562ac-a082-4d93-ab78-7b1e7b8705e0")
+		)
+		(pin "6"
+			(uuid "f78a4d18-d29f-4b44-ad60-ab4084e731a5")
+		)
+		(pin "5"
+			(uuid "d789957c-f761-4c5a-8bb0-b03f2825fd88")
+		)
+		(pin "8"
+			(uuid "be9078ad-3104-40cc-8b57-4274153e15aa")
+		)
+		(pin "3"
+			(uuid "bb040aea-c1b2-4294-bfae-3abbccedee6f")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 273.05 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ad336f8-9d4c-4df9-a323-7efc48dc7ec2")
+		(property "Reference" "D1"
+			(at 273.05 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Orange"
+			(at 273.05 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 273.05 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 273.05 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 273.05 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d538713-3fab-4592-b8d0-77302354798d")
+		)
+		(pin "2"
+			(uuid "c8af18b5-0b16-49c5-a730-891c1d03feb1")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 233.68 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "510b1c1e-1a69-4f0e-876d-f9ef8979fa88")
+		(property "Reference" "J2"
+			(at 233.68 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 233.68 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
+			(at 233.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 233.68 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "667d5dac-871e-4065-8da0-f00e82544133")
+		)
+		(pin "2"
+			(uuid "4f85817e-0f46-4676-9fa0-bf793f8abb8f")
+		)
+		(pin "1"
+			(uuid "bc709338-ec35-4326-9536-49a22881ff15")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GTF Device:SW 3PDT x3")
+		(at 259.08 121.92 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6acc8835-2380-4547-bc33-e94cd66ce9b5")
+		(property "Reference" "SW1"
+			(at 259.08 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Foot Switch"
+			(at 259.08 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GTF_Library:Switch"
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, triple pole double throw, separate symbols"
+			(at 259.08 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4289c6f2-d3a9-498a-bfe4-e1b371fad4d1")
+		)
+		(pin "1"
+			(uuid "27f72bf5-f677-44e2-811b-149b0a79069c")
+		)
+		(pin "9"
+			(uuid "143bf7b7-75a2-4470-ad53-36b170decdec")
+		)
+		(pin "7"
+			(uuid "e143a202-5fbf-41a7-9c4d-36eb1c28ae22")
+		)
+		(pin "4"
+			(uuid "dc7562ac-a082-4d93-ab78-7b1e7b8705e1")
+		)
+		(pin "6"
+			(uuid "f78a4d18-d29f-4b44-ad60-ab4084e731a6")
+		)
+		(pin "5"
+			(uuid "d789957c-f761-4c5a-8bb0-b03f2825fd89")
+		)
+		(pin "8"
+			(uuid "be9078ad-3104-40cc-8b57-4274153e15ab")
+		)
+		(pin "3"
+			(uuid "bb040aea-c1b2-4294-bfae-3abbccedee70")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "SW1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 262.255 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a28aff7-2c05-42d5-8132-11df4368c9f3")
+		(property "Reference" "JP2"
+			(at 262.255 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Aux LED"
+			(at 262.255 154.686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_4ms_SolderJumper:JUMPER_SMD_1x2"
+			(at 262.255 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.255 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 262.255 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72b80a55-65d5-4382-8a21-70ec652b6c05")
+		)
+		(pin "1"
+			(uuid "bc0730ea-6483-4102-b207-7750f591a0bc")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GTF Device:SW 3PDT x3")
+		(at 259.08 106.68 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b002d7-494e-448c-bf1e-896a5e38db99")
+		(property "Reference" "SW1"
+			(at 259.08 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Foot Switch"
+			(at 259.08 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GTF_Library:Switch"
+			(at 259.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, triple pole double throw, separate symbols"
+			(at 259.08 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4289c6f2-d3a9-498a-bfe4-e1b371fad4d2")
+		)
+		(pin "1"
+			(uuid "27f72bf5-f677-44e2-811b-149b0a79069d")
+		)
+		(pin "9"
+			(uuid "143bf7b7-75a2-4470-ad53-36b170decded")
+		)
+		(pin "7"
+			(uuid "e143a202-5fbf-41a7-9c4d-36eb1c28ae23")
+		)
+		(pin "4"
+			(uuid "dc7562ac-a082-4d93-ab78-7b1e7b8705e2")
+		)
+		(pin "6"
+			(uuid "f78a4d18-d29f-4b44-ad60-ab4084e731a7")
+		)
+		(pin "5"
+			(uuid "d789957c-f761-4c5a-8bb0-b03f2825fd8a")
+		)
+		(pin "8"
+			(uuid "be9078ad-3104-40cc-8b57-4274153e15ac")
+		)
+		(pin "3"
+			(uuid "bb040aea-c1b2-4294-bfae-3abbccedee71")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "SW1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GTF Device:R")
+		(at 272.415 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8df915b-95b1-458d-a141-9ec3bd024496")
+		(property "Reference" "R1"
+			(at 272.415 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.75k"
+			(at 272.415 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 272.669 151.384 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 272.415 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7fae89ac-f421-45e3-ae7e-5ce3b5838de4")
+		)
+		(pin "1"
+			(uuid "45adc384-f911-487a-84e8-91570e6326c5")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 262.255 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfe686f0-db7b-40c1-9d14-00b0475a3e79")
+		(property "Reference" "JP1"
+			(at 262.255 139.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Main LED"
+			(at 262.255 144.526 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_4ms_SolderJumper:JUMPER_SMD_1x2"
+			(at 262.255 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.255 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 262.255 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72b80a55-65d5-4382-8a21-70ec652b6c06")
+		)
+		(pin "1"
+			(uuid "bc0730ea-6483-4102-b207-7750f591a0bd")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 215.9 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ebf5de31-58c8-427c-ade2-a062507f6f59")
+		(property "Reference" "J1"
+			(at 215.9 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Effect"
+			(at 215.9 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" ""
+			(at 215.9 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "b001a0be-d755-436f-99eb-2bb780520cce")
+		)
+		(pin "6"
+			(uuid "322aaf67-816b-49df-8542-232f209c9d5e")
+		)
+		(pin "4"
+			(uuid "15c2566c-3037-4d65-9032-e4daff2a009a")
+		)
+		(pin "2"
+			(uuid "442d176b-53bd-46ce-9ba9-2ad8f8959b89")
+		)
+		(pin "1"
+			(uuid "4a1b871b-380a-47a7-b710-c5088ea9e59d")
+		)
+		(pin "3"
+			(uuid "6efbeb5d-1790-44f4-a940-f98eec77aaf5")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 272.415 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3e3a95e-bc79-4dfe-8096-f5fad2f25679")
+		(property "Reference" "JP3"
+			(at 272.415 158.496 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Main R"
+			(at 272.415 163.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_4ms_SolderJumper:JUMPER_SMD_1x2"
+			(at 272.415 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.415 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 272.415 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c9284ae-af3f-4aec-931d-0f7768b21d56")
+		)
+		(pin "1"
+			(uuid "a2b5eeb1-c94a-4477-b1e7-f42f397cf5d3")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 249.555 111.125 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3e4477e-9530-4549-b084-4bfd2c550a40")
+		(property "Reference" "#PWR02"
+			(at 249.555 117.475 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Sub_GND"
+			(at 249.555 114.935 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 249.555 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 249.555 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 249.555 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Avenir Next")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aec4957-ecc9-4857-9b14-f074a4cd3828")
+		)
+		(instances
+			(project "PSX019 FSW w LED"
+				(path "/5b1a0442-7806-4be2-b211-5050abea154e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
